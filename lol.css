@@ -3,6 +3,22 @@ header {
     height: 100px;
     background: #1a1a1a;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > div {
+    display: flex;
+    align-items: center;
+}
+header > div > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+a > img {
+    padding-right: 10px;
 }
 * {
     margin: 0px;
